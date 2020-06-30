@@ -1,8 +1,9 @@
 body{
+    margin: 0;
     font-family: 'Nunito', sans-serif;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 .name-web{
     color: orangered;
@@ -14,5 +15,33 @@ h1{
     padding-left: 2%;
 }
 .first-half img{
+    margin-top: 2%;
     width: 100%;
+}
+.back{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+section{
+    height: 500px;
+}
+.link{
+    text-decoration: none;
+    background-color: orangered;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+}
+h2{
+    font-size: 30px;
+}
+p{
+    color: dimgray;
 }
